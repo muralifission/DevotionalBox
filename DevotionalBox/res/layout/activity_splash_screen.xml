@@ -2,12 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreenActivity" >
+    android:background="@drawable/splash_screen_bg" 
+    android:onClick="FinishActivity">
 
     <ImageView
-        android:id="@+id/Iv_Rotate"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/splash_screen_bg" />
-
+        android:id="@+id/imgRotate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      	android:layout_marginBottom="35dp"
+        android:src="@drawable/om_bg_circle" />
+	
 </RelativeLayout>
