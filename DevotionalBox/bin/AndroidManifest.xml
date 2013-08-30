@@ -28,19 +28,19 @@
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".EventsActivity"
+            android:name=".EventFragment"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".GalleryActivity"
+            android:name=".GalleryFragment"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".AudioActivity"
+            android:name=".AudioFragment"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".VideoActivity"
+            android:name=".VideoFragment"
             android:label="@string/app_name" >
         </activity>
     </application>

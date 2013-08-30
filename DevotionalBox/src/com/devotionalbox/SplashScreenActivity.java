@@ -5,13 +5,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.animation.Animation;
-import android.view.animation.Animation.AnimationListener;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 public class SplashScreenActivity extends Activity  {
 	private static final long SPLASHTIME = 5000;
-	private SplashScreenActivity _activity;
+	SplashScreenActivity _activity;
 	private Handler splash_time_handler;
 	Animation animRotate;
 	 
