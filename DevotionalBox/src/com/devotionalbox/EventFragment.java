@@ -11,7 +11,7 @@ public class EventFragment extends Fragment{
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View v = inflater.inflate(R.layout.activity_splash_screen, container,false);
+		View v = inflater.inflate(R.layout.events_xml, container,false);
 		return v;
 	}
 	
